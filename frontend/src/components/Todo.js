@@ -14,7 +14,7 @@ function TodoItem(props) {
 
                 <button onClick={() => deleteTodoHandler(props.todo.title)} 
                 className="btn btn-outline-danger my-2 mx-2" style={
-                    {'borderRadius':'50px',}}>X</button>
+                    {'borderRadius':'45px',}}>X</button>
                     
                 <hr></hr>
             </p>
